@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+:root {
+  --headw: 100vw;
+  --headh: 100vh;
+
+  --clr-light: #e0e0e0;
+  --clr-medium: #a6a6a6;
+  --clr-dark: #4f4f4f;
+}
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-color: #363636 #000000;
+  background-color: black;
+}
+
+.head-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#vid1{
+    position: absolute;
+    top: 0;
+    margin: auto;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#black1{
+    z-index: 1;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#grad1{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.8));
+    width: inherit;
+    height: inherit;
+}
+
+#text-container{
+  z-index: 3;
+  position: absolute;
+  left: 5vw;
+  bottom: 0;
+  color: var(--clr-light);
+  font-size: 17em;
+  font-family: sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  padding: 0;
+  margin: 0;
+  transition: all, 1s, ease-in-out;
+}
+
+#g1,#i2,#m3,#s4{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#text-container :hover{
+  -webkit-text-fill-color: var(--clr-light);
+}
+
