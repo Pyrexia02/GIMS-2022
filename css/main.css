@@ -55,24 +55,235 @@ html{
   z-index: 3;
   position: absolute;
   left: 5vw;
-  bottom: 0;
+  top: 56vh;
   color: var(--clr-light);
-  font-size: 17em;
+  font-size: 15em;
   font-family: sans-serif;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   padding: 0;
   margin: 0;
-  transition: all, 1s, ease-in-out;
+  overflow: visible;
+  visibility: visible;
 }
 
 #g1,#i2,#m3,#s4{
   position: relative;
+  display: inline-block;
+  margin: 30px;
+  left: 0;
+  bottom: 0;
   padding: 0;
   margin: 0;
 }
 
-#text-container :hover{
-  -webkit-text-fill-color: var(--clr-light);
+
+#text2-container {
+  z-index: 4;
+  position: absolute;
+  left: 5vw;
+  top: 56vh;
+  color: var(--clr-light);
+  font-size: 10em;
+  font-family: sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  visibility: visible;
 }
+
+#e1, #n2, #e3, #c4 {
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#e1{
+  top: -22vh;
+  left: 12.8vw;
+}
+
+#n2{
+  top: -22vh;
+  left: 21.3vw;
+}
+
+#e3{
+  left: -29.3vw;
+  bottom: -8vh;
+}
+
+#c4{
+  left: 58vw;
+  bottom: 13.5vh;
+}
+
+
+
+/*
+======================
+Animation for G.I.M.S. text
+Duration: 0.5s or 1s
+Delay: 1.4s
+Fill Mode: forwards
+
+*/
+.g1{
+    animation-name: g1;
+    animation-duration: 0.5s;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+}
+@keyframes g1 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: -30vh;
+    }
+}
+
+.i2 {
+  animation-name: i2;
+  animation-duration: 1s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+@keyframes i2 {
+  0% {
+    top: 0px;
+    left: 0;
+  }
+  50% {
+    top: -30vh;
+    left: 0;
+  }
+  100% {
+    top: -30vh;
+    left: 45vh;
+  }
+}
+
+.m3{
+  animation-name: m3;
+  animation-duration: 0.5s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+@keyframes m3 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -46vh;
+  }
+}
+
+.s4 {
+  animation-name: s4;
+  animation-duration: 1s;
+  animation-delay: 1.8s;      /* +0.4s for smoothness */
+  animation-fill-mode: forwards;
+}
+@keyframes s4 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 3vh;
+  }
+}
+
+
+/* animation section for .... opacity */
+.g1d, .i2d, .m3d, .s4d {
+  animation-name: d;
+  animation-duration: 0.1s;
+  animation-delay: 1.4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes d {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+
+/* Animation section for text2 (continuating text) */
+.e1 {
+  animation-name: e1;
+  animation-duration: 0.3s;
+  animation-delay: 2.4s;
+  animation-fill-mode: both;
+}
+@keyframes e1 {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+.n2 {
+  animation-name: n2;
+  animation-duration: 0.3s;
+  animation-delay: 2.7s;
+  animation-fill-mode: both;
+}
+@keyframes n2 {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+.e3 {
+  animation-name: e3;
+  animation-duration: 0.3s;
+  animation-delay: 3.0s;
+  animation-fill-mode: both;
+}
+@keyframes e3 {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+.c4 {
+  animation-name: c4;
+  animation-duration: 0.3s;
+  animation-delay: 3.3s;
+  animation-fill-mode: both;
+}
+@keyframes c4 {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
 
