@@ -1,0 +1,745 @@
+.map{
+    position: relative;
+    width:100%;
+    height:45em;
+    background: radial-gradient(#f5f7f6, #5ca0f2);
+    background-size: contain;
+    margin: 2% auto;
+    border-radius: 15em;
+    color: black;
+    text-align: center;
+}
+
+/*Animation Area*/
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.3);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+
+#introduction{
+    position: absolute;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 3%;
+    right: 0;
+    z-index: 2;
+}
+
+.text{
+    color:transparent;
+    transition: .2s 0 linear;
+    width:100%;
+    height:100%;
+}
+.text:hover{
+    color:white;
+    font-size: .5em;
+    font-family: Helvetica, sans-serif;
+    transition-delay: .6s;
+}
+
+.jiayu{
+    position: absolute;
+    width: 6em;
+    /*1 em = 16 px*/
+    height: 6em;
+    background-image: url(Committee/jiayu.png);
+    top:15%;
+    left:55%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.jiayu-background{
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+    top:15%;
+    left:55%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.jiayu-background:hover{
+
+    background-color:black;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.khaihsin{
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    background-image: url(Committee/khaihsin.png);
+    top:15%;
+    left:40%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.khaihsin-background{
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+    top:15%;
+    left:40%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.khaihsin-background:hover{
+    background-color:black;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.zhiyeow{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/zhiyeow.png);
+    top:35%;
+    left:30%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.zhiyeow-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:35%;
+    left:30%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.zhiyeow-background:hover{
+    background-color:darkblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.xihan{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/xihan.png);
+    top:35%;
+    left:70%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.xihan-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:35%;
+    left:70%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.xihan-background:hover{
+    background-color:darkblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.eshuen{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/eshuen.png);
+    top:60%;
+    left:32%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.eshuen-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:60%;
+    left:32%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.eshuen-background:hover{
+    background-color:darkblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.shagaan{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/shagaan.png);
+    top:80%;
+    left:49%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.shagaan-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:80%;
+    left:49%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.shagaan-background:hover{
+    background-color:darkblue;
+    width: 8em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.jinlok{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/jinlok.png);
+    top:57%;
+    left:67%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.jinlok-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:57%;
+    left:67%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.jinlok-background:hover{
+    background-color:darkblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.chowmin{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/chowmin.png);
+    top:75%;
+    left:25%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.chowmin-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:75%;
+    left:25%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.chowmin-background:hover{
+    background-color:skyblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.deenna{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/deenna.png);
+    top:83%;
+    left:37%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.deenna-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:83%;
+    left:37%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.deenna-background:hover{
+    background-color:skyblue;
+    width: 8em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.jolin{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/jolin.png);
+    top:70%;
+    left:60%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.jolin-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:70%;
+    left:60%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.jolin-background:hover{
+    background-color:skyblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.qiaoning{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-image: url(Committee/qiaoning.png);
+    top:73%;
+    left:74%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.qiaoning-background{
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    top:73%;
+    left:74%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.qiaoning-background:hover{
+    background-color:skyblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.chuiyan{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/chuiyan.png);
+    top:50%;
+    left:25%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.chuiyan-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:50%;
+    left:25%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.chuiyan-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.jiahui{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/jiahui.png);
+    top:20%;
+    left:25%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.jiahui-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:20%;
+    left:25%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.jiahui-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.alyaa{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/alyaa.png);
+    top:65%;
+    left:85%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.alyaa-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:65%;
+    left:85%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.alyaa-background:hover{
+    background-color:lightblue;
+    width: 7.5em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.jeanne{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/jeanne.png);
+    top:70%;
+    left:17%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.jeanne-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:70%;
+    left:17%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.jeanne-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.chenkang{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/chenkang.png);
+    top:50%;
+    left:83%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.chenkang-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:50%;
+    left:83%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.chenkang-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.ca1{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(image/small.png);
+    top:40%;
+    left:15%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.ca1-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:40%;
+    left:15%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.ca1-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.ca2{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(image/small.png);
+    top:55%;
+    left:10%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.ca2-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:55%;
+    left:10%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.ca2-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.ca3{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(image/small.png);
+    top:15%;
+    left:75%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.ca3-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:15%;
+    left:75%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.ca3-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.ca4{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(image/small.png);
+    top:25%;
+    left:80%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.ca4-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:25%;
+    left:80%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.ca4-background:hover{
+    background-color:lightblue;
+    width: 7em;
+    height: 2em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
