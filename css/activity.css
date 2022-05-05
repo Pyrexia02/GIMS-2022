@@ -1,9 +1,9 @@
 .activity{
     margin: 0 auto;
-    background: white;
+    background: black;
     padding: 0px;
     text-align: justify;
-    color: black;
+    color: white;
 }
 
 .align-left {

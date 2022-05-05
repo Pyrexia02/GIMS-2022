@@ -12,7 +12,7 @@
 html{
   scroll-behavior: smooth;
   scrollbar-color: #363636 #000000;
-  background-color: #027997;
+  background-color: black; /* #027997 */
 }
 
 .head-container{
