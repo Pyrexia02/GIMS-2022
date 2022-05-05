@@ -2,10 +2,14 @@
     position: relative;
     width:100%;
     height:45em;
-    background: radial-gradient(#f5f7f6, #5ca0f2);
-    background-size: contain;
+    /* background: radial-gradient(#f5f7f6, #5ca0f2);  #5ca0f2 */
+    background-image: url("pics/world2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
     margin: 2% auto;
-    border-radius: 15em;
+    /* border-radius: 15em; */
     color: black;
     text-align: center;
 }
@@ -25,7 +29,7 @@
 	list-style: none;
 	width: 25px;
 	height: 25px;
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(13, 45, 89, 0.4); /* rgba(255, 255, 255, 0.1) */
 	animation: animate 20s linear infinite;
 	bottom: -150px;
 }

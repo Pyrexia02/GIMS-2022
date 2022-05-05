@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .activity{
     margin: 0 auto;
     background: black;
     padding: 0px;
     text-align: justify;
     color: white;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .align-left {
@@ -45,6 +48,7 @@
 
   .flag {
       display: inline-block;
+      width: 5vw;
   }
 
   #activity-title{
@@ -53,44 +57,60 @@
   }
 
   #activity-paragraph{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
+    color: #8a8a8a;
   }
 
   @media screen and (max-width:1400px){
-    #activity-title, #activity-paragraph {
-      font-size:2.5rem;
+    #activity-title {
+      font-size: 2.5rem;
+    }
+    #activity-paragraph {
+      font-size:1.5rem;
     }
   }
 
   @media screen and (max-width:1200px){
-    #activity-title, #activity-paragraph {
+    #activity-title {
       font-size: 1.8rem;
+    }
+    #activity-paragraph {
+      font-size: 1.08rem;
     }
   }
 
   @media screen and (max-width:860px){
+    #activity-title {
+      font-size: 1.3rem;
+    }
     #activity-paragraph{
-      font-size: 1.5rem;
+      font-size: 0.9rem;
     }
   }
 
   @media screen and (max-width:700px){
     #activity-title{
-      font-size: 1.5rem;
+      font-size: 0.9rem;
     }
 
     #activity-paragraph{
-      font-size: 1rem;
+      font-size: 0.6rem;
     }
   }
 
   @media screen and (max-width:520px){
     #activity-title{
-      font-size: 1rem;
+      font-size: 0.6rem;
     }
 
     #activity-paragraph{
-      font-size: 0.72rem;
+      font-size: 0.432rem;
     }
+  }
+
+  .activity-content{
+    margin-top: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
   }

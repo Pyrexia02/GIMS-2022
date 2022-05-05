@@ -15,7 +15,7 @@ button {
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background: black; /* #456990 */
   color: #fff;
 }
 
@@ -33,6 +33,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+  margin-top: 5vw;
 }
 
 .section h1 {
@@ -86,7 +87,7 @@ body {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.7);
+  background: #6986ff; /* rgba(0, 0, 0, 0.7) */
 }
 
 .malaysia-public{
@@ -176,6 +177,7 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline .arrows {
+  margin-top: 2.5vw;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
