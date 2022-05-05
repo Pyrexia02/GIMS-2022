@@ -69,6 +69,9 @@ body {
   background: #fff;
 }
 
+.timeline ol li div{
+  border-radius: 5%;
+}
 .timeline ol li:last-child {
   width: 280px;
 }
