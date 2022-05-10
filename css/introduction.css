@@ -112,6 +112,7 @@
     /*1 em = 16 px*/
     height: 6em;
     background-image: url(Committee/jiayu.png);
+    background-size: 96px 96px;
     top:15%;
     left:55%;
     border-radius: 50%;
@@ -132,7 +133,7 @@
 }
 .jiayu-background:hover{
 
-    background-color:black;
+    background-color:#005252;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -140,11 +141,29 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .jiayu{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+        top:30%;
+    }
+    .jiayu-background{
+        width: 3em;
+        height: 3em;
+        top: 30%;
+    }
+    .jiayu-background:hover{
+        transform: scale(1.5);
+    }
+}
+
 .khaihsin{
     position: absolute;
     width: 6em;
     height: 6em;
     background-image: url(Committee/khaihsin.png);
+    background-size: 96px 96px;
     top:15%;
     left:40%;
     border-radius: 50%;
@@ -164,7 +183,7 @@
     transform-origin: 0% 0%;
 }
 .khaihsin-background:hover{
-    background-color:black;
+    background-color:#005252;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -172,11 +191,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .khaihsin{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .khaihsin-background{
+        width: 3em;
+        height: 3em;
+    }
+    .khaihsin-background:hover{
+        transform: scale(1.5);
+    }
+}
+
 .zhiyeow{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/zhiyeow.png);
+    background-size: 64px 64px;
     top:35%;
     left:30%;
     border-radius: 50%;
@@ -196,7 +231,7 @@
     transform-origin: 0% 0%;
 }
 .zhiyeow-background:hover{
-    background-color:darkblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -204,11 +239,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .zhiyeow{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .zhiyeow-background{
+        width: 3em;
+        height: 3em;
+    }
+    .zhiyeow-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .xihan{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/xihan.png);
+    background-size: 64px 64px;
     top:35%;
     left:70%;
     border-radius: 50%;
@@ -228,7 +279,7 @@
     transform-origin: 0% 0%;
 }
 .xihan-background:hover{
-    background-color:darkblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -236,11 +287,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .xihan{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .xihan-background{
+        width: 3em;
+        height: 3em;
+    }
+    .xihan-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .eshuen{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/eshuen.png);
+    background-size: 64px 64px;
     top:60%;
     left:32%;
     border-radius: 50%;
@@ -260,7 +327,7 @@
     transform-origin: 0% 0%;
 }
 .eshuen-background:hover{
-    background-color:darkblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -268,11 +335,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .eshuen{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .eshuen-background{
+        width: 3em;
+        height: 3em;
+    }
+    .eshuen-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .shagaan{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/shagaan.png);
+    background-size: 64px 64px;
     top:80%;
     left:49%;
     border-radius: 50%;
@@ -292,7 +375,7 @@
     transform-origin: 0% 0%;
 }
 .shagaan-background:hover{
-    background-color:darkblue;
+    background-color:#008080;
     width: 8em;
     height: 2em;
     border-radius: 25rem;
@@ -300,11 +383,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .shagaan{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .shagaan-background{
+        width: 3em;
+        height: 3em;
+    }
+    .shagaan-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .jinlok{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/jinlok.png);
+    background-size: 64px 64px;
     top:57%;
     left:67%;
     border-radius: 50%;
@@ -324,7 +423,7 @@
     transform-origin: 0% 0%;
 }
 .jinlok-background:hover{
-    background-color:darkblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -332,13 +431,29 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .jinlok{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .jinlok-background{
+        width: 3em;
+        height: 3em;
+    }
+    .jinlok-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .chowmin{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/chowmin.png);
+    background-size: 64px 64px;
     top:75%;
-    left:25%;
+    left:28%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
@@ -348,7 +463,7 @@
     height: 4em;
     background-color: transparent;
     top:75%;
-    left:25%;
+    left:28%;
     border-radius: 50%;
     z-index: 2;
     transition: .5s 0s linear;
@@ -356,7 +471,7 @@
     transform-origin: 0% 0%;
 }
 .chowmin-background:hover{
-    background-color:skyblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -364,36 +479,19 @@
     transform: scale(2);
 }
 
-.deenna{
-    position: absolute;
-    width: 4em;
-    height: 4em;
-    background-image: url(Committee/deenna.png);
-    top:83%;
-    left:37%;
-    border-radius: 50%;
-    border: solid #fff 3px;
-}
-.deenna-background{
-    position: absolute;
-    width: 4em;
-    height: 4em;
-    background-color: transparent;
-    top:83%;
-    left:37%;
-    border-radius: 50%;
-    z-index: 2;
-    transition: .5s 0s linear;
-    word-wrap: break-word;
-    transform-origin: 0% 0%;
-}
-.deenna-background:hover{
-    background-color:skyblue;
-    width: 8em;
-    height: 2em;
-    border-radius: 25rem;
-    word-wrap: break-word;
-    transform: scale(2);
+@media screen and (max-width:500px) {
+    .chowmin{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .chowmin-background{
+        width: 3em;
+        height: 3em;
+    }
+    .chowmin-background:hover{
+        transform: scale(1.2);
+    }
 }
 
 .jolin{
@@ -401,6 +499,7 @@
     width: 4em;
     height: 4em;
     background-image: url(Committee/jolin.png);
+    background-size: 64px 64px;
     top:70%;
     left:60%;
     border-radius: 50%;
@@ -420,7 +519,7 @@
     transform-origin: 0% 0%;
 }
 .jolin-background:hover{
-    background-color:skyblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -428,11 +527,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .jolin{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .jolin-background{
+        width: 3em;
+        height: 3em;
+    }
+    .jolin-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .qiaoning{
     position: absolute;
     width: 4em;
     height: 4em;
     background-image: url(Committee/qiaoning.png);
+    background-size: 64px 64px;
     top:73%;
     left:74%;
     border-radius: 50%;
@@ -452,7 +567,7 @@
     transform-origin: 0% 0%;
 }
 .qiaoning-background:hover{
-    background-color:skyblue;
+    background-color:#008080;
     width: 7em;
     height: 2em;
     border-radius: 25rem;
@@ -460,11 +575,27 @@
     transform: scale(2);
 }
 
+@media screen and (max-width:500px) {
+    .qiaoning{
+        width: 3em;
+        height: 3em;
+        background-size: 48px 48px;
+    }
+    .qiaoning-background{
+        width: 3em;
+        height: 3em;
+    }
+    .qiaoning-background:hover{
+        transform: scale(1.2);
+    }
+}
+
 .chuiyan{
     position: absolute;
     width: 3em;
     height: 3em;
     background-image: url(Committee/chuiyan.png);
+    background-size: 48px 48px;
     top:50%;
     left:25%;
     border-radius: 50%;
@@ -484,12 +615,22 @@
     transform-origin: 0% 0%;
 }
 .chuiyan-background:hover{
-    background-color:lightblue;
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
+}
+
+.chuiyan-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .chuiyan-background:hover{
+        transform: scale(1);
+    }
 }
 
 .jiahui{
@@ -497,6 +638,7 @@
     width: 3em;
     height: 3em;
     background-image: url(Committee/jiahui.png);
+    background-size: 48px 48px;
     top:20%;
     left:25%;
     border-radius: 50%;
@@ -516,12 +658,22 @@
     transform-origin: 0% 0%;
 }
 .jiahui-background:hover{
-    background-color:lightblue;
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
+}
+
+.jiahui-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .jiahui-background:hover{
+        transform: scale(1);
+    }
 }
 
 .alyaa{
@@ -529,8 +681,9 @@
     width: 3em;
     height: 3em;
     background-image: url(Committee/alyaa.png);
-    top:65%;
-    left:85%;
+    background-size: 48px 48px;
+    top:62%;
+    left:80%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
@@ -539,8 +692,8 @@
     width: 3em;
     height: 3em;
     background-color: transparent;
-    top:65%;
-    left:85%;
+    top:62%;
+    left:80%;
     border-radius: 50%;
     z-index: 2;
     transition: .5s 0s linear;
@@ -548,12 +701,22 @@
     transform-origin: 0% 0%;
 }
 .alyaa-background:hover{
-    background-color:lightblue;
-    width: 7.5em;
+    background-color:#02baba;
+    width: 5em;
     height: 2em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
+}
+
+.alyaa-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .alyaa-background:hover{
+        transform: scale(1);
+    }
 }
 
 .jeanne{
@@ -561,6 +724,7 @@
     width: 3em;
     height: 3em;
     background-image: url(Committee/jeanne.png);
+    background-size: 48px 48px;
     top:70%;
     left:17%;
     border-radius: 50%;
@@ -580,12 +744,22 @@
     transform-origin: 0% 0%;
 }
 .jeanne-background:hover{
-    background-color:lightblue;
-    width: 7em;
-    height: 2em;
+    background-color:#02baba;
+    width: 6em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
+}
+
+.jeanne-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .jeanne-background:hover{
+        transform: scale(1);
+    }
 }
 
 .chenkang{
@@ -593,8 +767,9 @@
     width: 3em;
     height: 3em;
     background-image: url(Committee/chenkang.png);
-    top:50%;
-    left:83%;
+    background-size: 48px 48px;
+    top:45%;
+    left:78%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
@@ -603,8 +778,8 @@
     width: 3em;
     height: 3em;
     background-color: transparent;
-    top:50%;
-    left:83%;
+    top:45%;
+    left:78%;
     border-radius: 50%;
     z-index: 2;
     transition: .5s 0s linear;
@@ -612,25 +787,36 @@
     transform-origin: 0% 0%;
 }
 .chenkang-background:hover{
-    background-color:lightblue;
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
 }
 
-.ca1{
+.chenkang-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .chenkang-background:hover{
+        transform: scale(1);
+    }
+}
+
+.yusean{
     position: absolute;
     width: 3em;
     height: 3em;
-    background-image: url(image/small.png);
+    background-image: url(Committee/yusean.png);
+    background-size: 48px 48px;
     top:40%;
     left:15%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
-.ca1-background{
+.yusean-background{
     position: absolute;
     width: 3em;
     height: 3em;
@@ -643,26 +829,37 @@
     word-wrap: break-word;
     transform-origin: 0% 0%;
 }
-.ca1-background:hover{
-    background-color:lightblue;
+.yusean-background:hover{
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
 }
 
-.ca2{
+.yusean-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .yusean-background:hover{
+        transform: scale(1);
+    }
+}
+
+.krisada{
     position: absolute;
     width: 3em;
     height: 3em;
-    background-image: url(image/small.png);
+    background-image: url(Committee/krisada.png);
+    background-size: 48px 48px;
     top:55%;
     left:10%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
-.ca2-background{
+.krisada-background{
     position: absolute;
     width: 3em;
     height: 3em;
@@ -675,58 +872,86 @@
     word-wrap: break-word;
     transform-origin: 0% 0%;
 }
-.ca2-background:hover{
-    background-color:lightblue;
+.krisada-background:hover{
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
 }
 
-.ca3{
+.krisada-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .krisada-background:hover{
+        transform: scale(1);
+    }
+}
+
+.jiaqi{
     position: absolute;
     width: 3em;
     height: 3em;
-    background-image: url(image/small.png);
+    background-image: url(Committee/jiaqi.png);
+    background-size: 48px 48px;
     top:15%;
-    left:75%;
+    left:70%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
-.ca3-background{
+.jiaqi-background{
     position: absolute;
     width: 3em;
     height: 3em;
     background-color: transparent;
     top:15%;
-    left:75%;
+    left:70%;
     border-radius: 50%;
     z-index: 2;
     transition: .5s 0s linear;
     word-wrap: break-word;
     transform-origin: 0% 0%;
 }
-.ca3-background:hover{
-    background-color:lightblue;
+.jiaqi-background:hover{
+    background-color:#02baba;
     width: 7em;
-    height: 2em;
+    height: 1.5em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
 }
 
-.ca4{
+.jiaqi-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .jiaqi{
+        left:60%;
+    }
+    .jiaqi-background{
+        left:60%;
+    }
+    .jiaqi-background:hover{
+        transform: scale(1);
+    }
+}
+
+.florence{
     position: absolute;
     width: 3em;
     height: 3em;
-    background-image: url(image/small.png);
+    background-image: url(Committee/florence.png);
+    background-size: 48px 48px;
     top:25%;
     left:80%;
     border-radius: 50%;
     border: solid #fff 3px;
 }
-.ca4-background{
+.florence-background{
     position: absolute;
     width: 3em;
     height: 3em;
@@ -739,11 +964,113 @@
     word-wrap: break-word;
     transform-origin: 0% 0%;
 }
-.ca4-background:hover{
-    background-color:lightblue;
+.florence-background:hover{
+    background-color:#02baba;
     width: 7em;
+    height: 1.5em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.florence-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .florence-background:hover{
+        transform: scale(1);
+    }
+}
+
+.singchih{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/singchih.png);
+    background-size: 48px 48px;
+    top:23%;
+    left:10%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.singchih-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:23%;
+    left:10%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.singchih-background:hover{
+    background-color:#02baba;
+    width: 7em;
+    height: 1.5em;
+    border-radius: 25rem;
+    word-wrap: break-word;
+    transform: scale(2);
+}
+
+.singchih-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .singchih-background:hover{
+        transform: scale(1);
+    }
+}
+
+.megan{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-image: url(Committee/megan.png);
+    background-size: 48px 48px;
+    top:18%;
+    left:86%;
+    border-radius: 50%;
+    border: solid #fff 3px;
+}
+.megan-background{
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    background-color: transparent;
+    top:18%;
+    left:86%;
+    border-radius: 50%;
+    z-index: 2;
+    transition: .5s 0s linear;
+    word-wrap: break-word;
+    transform-origin: 0% 0%;
+}
+.megan-background:hover{
+    background-color:#02baba;
+    width: 5.5em;
     height: 2em;
     border-radius: 25rem;
     word-wrap: break-word;
     transform: scale(2);
+}
+
+.megan-background > .text{
+    font-size: 7px;
+}
+
+@media screen and (max-width:500px) {
+    .megan{
+        left:76%;
+    }
+    .megan-background{
+        left: 76%;
+    }
+    .megan-background:hover{
+        transform: scale(1);
+    }
 }
