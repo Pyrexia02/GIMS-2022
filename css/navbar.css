@@ -80,6 +80,10 @@
   .square-btn {
     background: transparent;
   }
+
+
+
+/* ===== PC ===== */
   @media screen and (min-width: 1100px) {
     #nav {
       background: black;
