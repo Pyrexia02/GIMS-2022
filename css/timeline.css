@@ -90,7 +90,7 @@ body {
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #6986ff; /* rgba(0, 0, 0, 0.7) */
+  background: #6986ff;
 }
 
 .malaysia-public{
@@ -101,7 +101,8 @@ body {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: linear-gradient(to bottom, #6482ff, #fff);
+  /*background: linear-gradient(to bottom, #6482ff, #fff);*/
+  background: #02d4d4;
 }
 
 .china{
@@ -112,7 +113,7 @@ body {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: linear-gradient(to bottom, #52ff9b, #fff, #e6ff95);
+  background: #02d4d4;
 }
 
 .malaysia-private{
@@ -123,7 +124,7 @@ body {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: linear-gradient(to bottom, #50e6ff, #fff);
+  background: #02d4d4;
 }
 
 .uk{
@@ -134,7 +135,7 @@ body {
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: linear-gradient(to bottom, #ff9191, #fff, #ffeba4);
+  background: #02d4d4;
 }
 
 .timeline ol li div::before {

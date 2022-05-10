@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/activity.css">
     <link rel="stylesheet" href="css/introduction.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    <link rel="stylesheet" href="css/navbar.css">
+    <script src="https://kit.fontawesome.com/807404b98f.js" crossorigin="anonymous"></script>
     <title>GIMS 2022</title>
 </head>
 <body>
@@ -26,7 +27,41 @@
     </div>
 
     <!-- Main page content here -->
-    <header>
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <!--nav header-->
+          <div class="nav-header">
+            <div class="logo-align">
+              <img src="pics/MMIYoungMedics.png" class="logo" alt="MMI logo" id="MMI-logo">
+              <img src="pics/GIMS-logo.png" alt="logo" class="logo" id="GIMS-logo">
+            </div>
+            <button class="nav-toggle">
+              <i class = "fas fa-bars"></i>
+            </button>
+          </div>
+          <!--links-->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Home</a>
+              </li>
+              <li>
+                <a href="#team" class="scroll-link">Our Team</a>
+              </li>
+              <li>
+                <a href="#activity" class="scroll-link">Activities</a>
+              </li>
+              <li>
+                <a href="#site-footer" class="scroll-link">Contact Us</a>
+              </li>
+              <li>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZGXsgcB89UqPXyxVug-yr-WasYWSttWIuSSuYBvcI8hC0yA/viewform?usp=sf_link" target="_blank">Register Now!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <!-- Header Vids & Stuff-->
         <div class="head-container" style="width: 100%; background-color: black;">
             <video id="vid1" autoplay muted loop>
@@ -34,24 +69,10 @@
                 Your browser does not support HTML5 video.
             </video>
             <img id="black1" src="pics/black.jpg" alt="">
+            <img id="pattern" src="pics/net2.png" alt="">
             <div id="grad1"></div>
-            <div id="text-container">
-                   <span id="g1"  class="g1">G</span><!--
-                --><span id="g1d" class="g1d">.</span><!--
-                --><span id="i2"  class="i2">I</span><!--
-                --><span id="i2d" class="i2d">.</span><!--
-                --><span id="m3"  class="m3">M</span><!--
-                --><span id="m3d" class="m3d">.</span><!--
-                --><span id="s4"  class="s4">S</span><!--
-                --><span id="s4d" class="s4d">.</span><!--
-                -->
-                <!--Comments to remove space between spans when rendering-->
-            </div>
-            <div id="text2-container">
-                   <span id="e1" class="e1">etting</span><!--
-                --><span id="n2" class="n2">nto</span><!--
-                --><span id="e3" class="e3">edical</span><!--
-                --><span id="c4" class="c4">chool</span>
+            <div id="above-test">
+              <img id="above" src="pics/gims-gif.gif" alt="" style="width: 90%; height: auto;">
             </div>
             <div id="video">
               <video src="vids/hori2.mov"></video>
@@ -59,7 +80,7 @@
         </div>
     </header>
     <!--Who We Are-->
-    <section class="introduction">
+    <section class="introduction" id="team">
       <div class="map">
         <div style="overflow: hidden;">
           <img src="pics/world2-1.jpg" alt="" style="display: block;
@@ -180,7 +201,7 @@
       </div>
     </section>
     <!--Activity Display-->
-    <section class="activity">
+    <section class="activity" id="activity">
       <div class="activity-column">
         <!--<img src="http://unsplash.it/400/400" alt="" class="align-left slide-in" style="width:45%;">-->
         <img src="pics/keynote.png" alt="" class="align-left slide-in" style="width:45%;">
@@ -361,7 +382,7 @@
           <div id="footer-about" class="footer-columns footer-columns-large">
             <div id="footer-logo">
               <picture>
-                <img src="css/image/MMIlogo.png" alt="footer logo" role="presentation">
+                <img src="css/image/MMIYoungMedics-white.png" alt="footer logo" role="presentation" style="width:25%; height: auto;">
               </picture>
             </div>
             <address>
@@ -377,15 +398,6 @@
               </li>
               <li class="footer-column-menu-item" role="menuitem">
                 <a href="https://malaysianmedics.org/mmi-my-branch-council" target="_blank" class="footer-column-menu-item-link">MMI Malaysia</a>
-              </li>
-              <li class="footer-column-menu-item" role="menuitem">
-                <a href="https://malaysianmedics.org/mmi-ireland-branch-council" target="_blank" class="footer-column-menu-item-link">MMI Ireland</a>
-              </li>
-              <li class="footer-column-menu-item" role="menuitem">
-                <a href="https://malaysianmedics.org/mmi-doctors-branch-council" target="_blank" class="footer-column-menu-item-link">MMI Doctors</a>
-              </li>
-              <li class="footer-column-menu-item" role="menuitem">
-                <a href="https://malaysianmedics.org/mmi-australia-chapter" target="_blank" class="footer-column-menu-item-link">MMI Australia</a>
               </li>
               <li class="footer-column-menu-item" role="menuitem">
                 <a href="https://malaysianmedics.org/mmi-china-branch-council" target="_blank" class="footer-column-menu-item-link">MMI China</a>
@@ -421,7 +433,9 @@
         </section>
       </footer>
     </section>
+    <script src="js/navbar.js"></script>
+    <script src="js/main-pic.js"></script>
     <script src="js/timeline.js"></script>
-    <script src="js/activity.js"></script>        
+    <script src="js/activity.js"></script>      
 </body>
 </html>

@@ -1,0 +1,121 @@
+#nav {
+    background: #fff;
+    padding: 0.5rem 0.5rem;
+    z-index: 5;
+  }
+  /* fixed nav */
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+  }
+  .fixed-nav .links a {
+    color: hsl(209, 61%, 16%);
+  }
+  .fixed-nav .links a:hover {
+    color: hsl(209, 61%, 16%);
+  }
+  /* .fixed-nav .links-container {
+    height: auto !important;
+  } */
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: #008080;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: hsl(209, 61%, 16%);
+  }
+
+  .logo-align {
+    text-align: left;
+  }
+  
+  .logo {
+    height: 80px;
+  }
+  
+  .links-container {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .show-links {
+    height: 200px;
+  }
+
+  .links a {
+    background: #fff;
+    color: #008080;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    display: block;
+    transition: all 0.3s linear;
+    font-weight: bold;
+    padding: 0.75rem 0;
+  }
+  .links a:hover {
+    color: hsl(209, 61%, 16%);
+  }
+  
+  .square-btn {
+    background: transparent;
+  }
+  @media screen and (min-width: 1100px) {
+    #nav {
+      background: #fff;
+    }
+    .nav-center {
+      width: 90vw;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links-container {
+      height: auto !important;
+    }
+    .links {
+      display: flex;
+    }
+    .links a {
+      background: transparent;
+      color: #008080;
+      font-size: 1.1rem;
+      text-transform: capitalize;
+      letter-spacing: 0.25rem;
+      display: block;
+      transition: all 0.3s linear;
+      margin: 0 1rem;
+      font-weight: bold;
+      padding: 0;
+    }
+    .links a:hover {
+      color: hsl(209, 61%, 16%);
+    }
+  }
