@@ -27,7 +27,7 @@ html{
   height: auto;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:420px) {
   #above{
     width: 90%;
     height: auto;

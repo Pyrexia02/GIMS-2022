@@ -152,6 +152,7 @@
       animation-delay: 1s;
       animation-direction: alternate;
       animation-iteration-count: infinite;
+      font-size: 2rem;
     }
 
     @keyframes col{
