@@ -1,7 +1,8 @@
 #nav {
-    background: #fff;
+    background: black;
+    opacity: 0.9;
     padding: 0.5rem 0.5rem;
-    z-index: 5;
+    z-index: 999;
   }
   /* fixed nav */
   .fixed-nav {
@@ -9,15 +10,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    background: black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    z-index: 5;
+    z-index: 999;
   }
   .fixed-nav .links a {
-    color: hsl(209, 61%, 16%);
+    color: white;
   }
   .fixed-nav .links a:hover {
-    color: hsl(209, 61%, 16%);
+    color: hsl(217, 81%, 45%);
   }
   /* .fixed-nav .links-container {
     height: auto !important;
@@ -29,14 +30,14 @@
   }
   .nav-toggle {
     font-size: 1.5rem;
-    color: #008080;
+    color: white;
     background: transparent;
     border-color: transparent;
     transition: all 0.3s linear;
     cursor: pointer;
   }
   .nav-toggle:hover {
-    color: hsl(209, 61%, 16%);
+    color: hsl(217, 81%, 45%);
   }
 
   .logo-align {
@@ -44,7 +45,7 @@
   }
   
   .logo {
-    height: 80px;
+    height: 50px;
   }
   
   .links-container {
@@ -62,18 +63,18 @@
   }
 
   .links a {
-    background: #fff;
-    color: #008080;
+    background: black;
+    color: white;
     font-size: 1.1rem;
     text-transform: capitalize;
-    letter-spacing: 0.25rem;
+    /* letter-spacing: 0.25rem; */
     display: block;
     transition: all 0.3s linear;
     font-weight: bold;
     padding: 0.75rem 0;
   }
   .links a:hover {
-    color: hsl(209, 61%, 16%);
+    color: hsl(217, 81%, 45%);
   }
   
   .square-btn {
@@ -81,7 +82,7 @@
   }
   @media screen and (min-width: 1100px) {
     #nav {
-      background: #fff;
+      background: black;
     }
     .nav-center {
       width: 90vw;
@@ -105,10 +106,10 @@
     }
     .links a {
       background: transparent;
-      color: #008080;
+    color: white;
       font-size: 1.1rem;
       text-transform: capitalize;
-      letter-spacing: 0.25rem;
+      /* letter-spacing: 0.25rem; */
       display: block;
       transition: all 0.3s linear;
       margin: 0 1rem;
@@ -116,6 +117,43 @@
       padding: 0;
     }
     .links a:hover {
-      color: hsl(209, 61%, 16%);
+      color: hsl(217, 81%, 45%);
     }
   }
+
+
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  
+    .navb {
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+    .navb:hover {
+      color: #fff;
+      transform: translateY(-4px);
+    }
+  
+    .navb:active {
+      transform: translateY(-1px);
+    }
+
+    .anim{
+      animation-name: col;
+      animation-duration: 8s;
+      animation-delay: 1s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes col{
+      0%   {color: white;}
+      25%  {color: #6e8ae6;}
+      50%  {color: #03dbfc;}
+      75%  {color: #946ee6;}
+      100% {color: #6e8ae6;}
+    }

@@ -100,9 +100,12 @@ body {
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: black;
+  /* color: black; */
+  color: white;
   /*background: linear-gradient(to bottom, #6482ff, #fff);*/
-  background: #02d4d4;
+  /* background: #02d4d4; */
+  background-image: url("image/msia2.png");
+  background-size: cover;
 }
 
 .china{
@@ -112,8 +115,9 @@ body {
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: black;
-  background: #02d4d4;
+  color: white;
+  background-image: url("image/china1.png");
+  background-size: cover;
 }
 
 .malaysia-private{
@@ -123,8 +127,9 @@ body {
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: black;
-  background: #02d4d4;
+  color: white;
+  background-image: url("image/msia1.png");
+  background-size: cover;
 }
 
 .uk{
@@ -134,8 +139,9 @@ body {
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: black;
-  background: #02d4d4;
+  color: white;
+  background-image: url("image/uk1.png");
+  background-size: cover;
 }
 
 .timeline ol li div::before {
@@ -258,4 +264,13 @@ body {
   .timeline .arrows {
     display: none;
   }
+}
+
+
+.tb:hover {
+  transform: translateY(-7px);
+}
+
+.tb:active {
+  transform: translateY(-1px);
 }
